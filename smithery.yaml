@@ -1,0 +1,16 @@
+ai:
+  version: 1
+  runtime: typescript
+  startCommand:
+    type: stdio
+    configSchema:
+      type: object
+      properties:
+        apiBase:
+          type: string
+          default: "https://api.example.com"
+          description: "API base URL"
+        accessToken:
+          type: string
+          description: "Access token for unlimited usage"
+      required: []

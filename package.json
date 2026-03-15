@@ -1,0 +1,54 @@
+{
+  "name": "data-verify-mcp",
+  "version": "1.0.2",
+  "description": "MCP Server for identity verification, enterprise check, vehicle query, OCR recognition and risk assessment in China.",
+  "type": "module",
+  "bin": {
+    "data-verify-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README_EN.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "identity-verification",
+    "enterprise-check",
+    "ocr",
+    "risk-assessment",
+    "vehicle-query",
+    "china",
+    "kyc",
+    "bank-card-verify",
+    "face-compare",
+    "id-card"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCCpan/data-verify-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.panchengcheng/data-verify-mcp",
+  "title": "Data Verify MCP Server - Chinese Identity, Enterprise, Vehicle & OCR Verification",
+  "description": "MCP Server for comprehensive data verification in China. Supports identity verification (ID card, phone, bank card, face compare), enterprise business check, vehicle information query, OCR document recognition, and personal risk assessment. 10 tools covering 5 major verification categories.",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "data-verify-mcp",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "transport": "stdio"
+    }
+  ]
+}
