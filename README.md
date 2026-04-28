@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/cccpan-data-verify-mcp-badge.png)](https://mseep.ai/app/cccpan-data-verify-mcp)
+
 [English](https://github.com/CCCpan/data-verify-mcp/blob/main/README_EN.md) | 中文
 
 # 🔐 Data Verify MCP Server
